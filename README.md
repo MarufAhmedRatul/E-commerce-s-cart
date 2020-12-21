@@ -35,10 +35,10 @@ With "ScartDefault" is the value defined in the file "config.json"
  
 # Note:   
 Change made vendor s-cart folder match with theme design. This chage will show on Product detail page.
-Location :  
->Core/src/library/helpers/price.php  
+Location : Core/src/library/helpers/price.php  
 Old Code :  
->$html = $tmpAtt[0].'<span class="option_price">(+'.sc_currency_render($add_price,$currency, $rate).')</span>';  
-Replace Code : >$html = $tmpAtt[0].'<sup>(+'.sc_currency_render($add_price,$currency, $rate).')</sup>';  
+> $html = $tmpAtt[0].'<span class="option_price">(+'.sc_currency_render($add_price,$currency, $rate).')</span>';  
+Replace Code :  
+>$html = $tmpAtt[0].'<sup>(+'.sc_currency_render($add_price,$currency, $rate).')</sup>';  
 line No: 30  
 **If you want don't wanat to chage, you can leave as it is. It will not effect the theme. But if you do, you have to change that code everytime update or install your comoper.**
